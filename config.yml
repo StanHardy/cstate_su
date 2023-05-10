@@ -144,6 +144,10 @@ params:
   # https://github.com/cstate/cstate/wiki/Customization
  categories:
     - name: Main
+      description: The main servers are located here.
+      closed: true
+    - name: Empty Category
+    - name: Uncategorized
       untitled: true
   # These are your systems. Change them to
   # change the amount of components.
