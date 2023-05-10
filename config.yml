@@ -158,9 +158,9 @@ params:
   # https://github.com/cstate/cstate/wiki/Customization
 systems:
     - name: KeeleSU
-      category: AWS
+      category: Uncategorized
     - name: Backup Gateway
-      category: AWS
+      category: Uncategorized
     - name: Website
       description: The main site.
       category: Uncategorized
