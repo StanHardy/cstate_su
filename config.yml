@@ -143,7 +143,7 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: North Coast
+    - name: Main Server
       description: The main servers are located here.
       closed: true
     - name: Empty Category
@@ -159,13 +159,13 @@ params:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
     - name: Gateway
-      category: North Coast
+      category: Uncategorized
     - name: Backup Gateway
-      category: North Coast
+      category: Uncategorized
     - name: Website
       description: The web frontend for the application.
       category: Uncategorized
-      link: https://example.com/
+      link: https://keelesu.com/
     - name: API
       description: The guts of the application.
       category: Uncategorized
@@ -233,7 +233,7 @@ params:
   #
   # Default: `true`
   # BOOLEAN; `true`, `false`
-  useLargeHeaderDesign: false
+  useLargeHeaderDesign: true
 
   # Should incident history be separated
   # like in an archive view?
