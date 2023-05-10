@@ -145,10 +145,7 @@ params:
   categories:
     - name: Main Server
       description: The main servers are located here.
-      closed: true
-    - name: Empty Category
-    - name: Uncategorized
-      untitled: true
+      closed: false
 
   # These are your systems. Change them to
   # change the amount of components.
@@ -161,14 +158,10 @@ params:
     - name: Website
       category: Uncategorized
       link: https://keelesu.com/
-    - name: 
-      category: Uncategorized
     - name: Staffsavvy
-      description:
       category: Uncategorized
       link: https://staff.keelesu.com/
     - name: Xibo Digital Signage
-      description:
       category: Uncategorized
       link: http://digitalsignage.keelesu.com/
     - name: Media Proxy
