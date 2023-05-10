@@ -145,7 +145,7 @@ params:
  categories:
     - name: Main
       description: Main servers are located here.
-      closed: flase
+      closed: false
     - name: Empty Category
     - name: Uncategorized
       untitled: true
