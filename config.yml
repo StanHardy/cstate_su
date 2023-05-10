@@ -158,17 +158,19 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Gateway
-      category: Uncategorized
-    - name: Backup Gateway
-      category: Uncategorized
     - name: Website
-      description: The web frontend for the application.
       category: Uncategorized
       link: https://keelesu.com/
-    - name: API
-      description: The guts of the application.
+    - name: 
       category: Uncategorized
+    - name: Staffsavvy
+      description:
+      category: Uncategorized
+      link: https://staff.keelesu.com/
+    - name: Xibo Digital Signage
+      description:
+      category: Uncategorized
+      link: http://digitalsignage.keelesu.com/
     - name: Media Proxy
       description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
       category: Uncategorized
@@ -233,7 +235,7 @@ params:
   #
   # Default: `true`
   # BOOLEAN; `true`, `false`
-  useLargeHeaderDesign: true
+  useLargeHeaderDesign: false
 
   # Should incident history be separated
   # like in an archive view?
