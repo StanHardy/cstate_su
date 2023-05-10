@@ -156,19 +156,23 @@ params:
   #
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
-  systems:
+systems:
+    - name: KeeleSU
+      category: AWS
+    - name: Backup Gateway
+      category: AWS
     - name: Website
-      category: Main
+      description: The main site.
+      category: Uncategorized
       link: https://keelesu.com/
-    - name: Staffsavvy
-      category: Main
+    - name: StaffSavvy
+      description: Staffsavvy site.
+      category: Uncategorized
       link: https://staff.keelesu.com/
-    - name: Xibo Digital Signage
-      category: Main
+    - name: Xibo Sigital Signage
+      description: Service responsible for Digital Signage.
+      category: Uncategorized
       link: http://digitalsignage.keelesu.com/
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
-      category: Main
 
   # What date format to use?
   #
